@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxqn1jh4bc3gs"]
+
+[ext_resource type="Script" uid="uid://58xio07qx5ip" path="res://scenes/main.gd" id="1_o5qli"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_o5qli")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Hello, System."
